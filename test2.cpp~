@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+
+  for (int i = 0; i < 4; i++) {
+    cout << cars[i] << "\n";
+  
+}
+
+  cout << "\nWhich car do you want? (0 - 3)\n";
+  
+  int carChosen;
+  cin >> carChosen;
+
+  cout << "You've chosen: " << carChosen;
+  cout << "\nThe car is a " << cars[carChosen];
+  
+}
+
